@@ -34,7 +34,7 @@ As you can see in response each animal object contains property **@class**, whic
     ]
 }
 ```
-This behaviour is enabled because `Animal` class is annotated:
+This behaviour is enabled because `Animal` class is annotated with:
 ```java
 @JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY, property = "@class")
 ```
